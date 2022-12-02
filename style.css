@@ -1,0 +1,40 @@
+body{
+  text-align: center;
+  background-color: #393E46;
+  margin:0;
+}
+h1{
+  font-family: 'Lobster', cursive;
+  color:#4ECCA3;
+  text-shadow: -5px 2px 1px black;
+  font-size: 7rem;
+  margin-top: 0;
+}
+h3{
+  font-family: 'Indie Flower', cursive;
+  color:#4ECCA3;
+}
+.row{
+  margin:5% 20% 0 20%;
+  height:256px;
+}
+
+@media (max-width:991px)
+{
+  h1{
+    font-size:5rem;
+  }
+.dice1 img,.dice2 img{
+  width:150px;
+}
+
+.dice2{
+  margin-top: 50px;
+}
+}
+
+.footer{
+  color:white;
+  font-family: 'Indie Flower', cursive;
+  padding-top:150px;
+}
